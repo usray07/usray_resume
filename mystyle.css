@@ -1,0 +1,85 @@
+/* Tag Selectors */
+body{
+    background: #ECECEC;
+    margin: 0;
+    padding:0;
+    font-family: 'Montserrat';
+}
+
+h1{
+
+    font-size: 2.5em;
+    /* font-family: 'Sacramento',cursive; */
+
+}
+h2{
+    /* color:#5C848E; */
+    font-family: 'Caveat',cursive;
+    font-size: 2.5em;
+}
+h3{
+    /* color:#1D2323; */
+    font-family: 'Caveat',cursive;
+    font-size: 2em;
+    
+}
+h4{
+
+    color:#70d3ff;
+    font-size: 1.5em;
+    font-family: 'Sacremento',cursive;
+}
+h5{
+    color: #2c3e50
+}
+hr{
+    border: 0;
+    height: 1px;
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
+
+}
+p{
+    padding-bottom: 5%;
+}
+/* Class Selectors */   
+.jumbotron{
+    background: #1D2323;
+    color:#ECECEC;
+    margin:0% 0% 0% 0%; 
+    padding-top: 15%;
+    padding-bottom: 15%;
+    
+}
+.background{
+    padding: 0% 5% 5% 5%;   
+    text-align: justify;
+    color: #1D2323;
+}
+.col{
+    padding: 5%;
+}
+.dark{
+    background: #1D2323;
+    color: #fff;
+    max-width: 100%;
+}
+
+/* ID Selectors */
+#profile{
+    margin-top: -20%;
+}
+#profile_img{
+
+    max-width: 40%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#title{
+    text-align: center;
+    padding-top: 5%;
+    padding-bottom: 7%;
+    color:#2c3e50;
+    font-family: 'Sacremento', cursive;
+
+}
