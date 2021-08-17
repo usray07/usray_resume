@@ -1,85 +1,114 @@
 /* Tag Selectors */
 body{
-    background: #ECECEC;
+    background: #fff;
     margin: 0;
     padding:0;
-    font-family: 'Montserrat';
+    font-family: 'Arima Madurai', cursive;
+    color: #1D2323;
+    font-size: 1.2rem;
 }
 
 h1{
-
-    font-size: 2.5em;
-    /* font-family: 'Sacramento',cursive; */
-
+    font-size: 3rem;
 }
 h2{
-    /* color:#5C848E; */
     font-family: 'Caveat',cursive;
-    font-size: 2.5em;
+    font-weight: 700;
+    font-size: 2.5rem;
+    text-align: center;
+    padding-bottom: 2%;
 }
 h3{
-    /* color:#1D2323; */
-    font-family: 'Caveat',cursive;
-    font-size: 2em;
+    font-family: 'Poiret One',cursive;
+    font-size: 2rem;
+    font-weight: 700;
     
 }
-h4{
+a{
+    color:white;
+    
+}
 
-    color:#70d3ff;
-    font-size: 1.5em;
-    font-family: 'Sacremento',cursive;
-}
-h5{
-    color: #2c3e50
-}
-hr{
-    border: 0;
-    height: 1px;
-    background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
-
-}
-p{
-    padding-bottom: 5%;
-}
 /* Class Selectors */   
+
+
 .jumbotron{
-    background: #1D2323;
-    color:#ECECEC;
+    background-image: url('https://images.unsplash.com/photo-1517547196086-e63b7ae6afb0?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=889&q=80');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
     margin:0% 0% 0% 0%; 
-    padding-top: 15%;
-    padding-bottom: 15%;
-    
+    padding-top: 7%;
+    padding-bottom: 7%;
+    text-align: center;
+    color: #fff;
+
 }
-.background{
-    padding: 0% 5% 5% 5%;   
+.story{
+    padding: 5% 15% 5% 15%;   
     text-align: justify;
-    color: #1D2323;
 }
-.col{
-    padding: 5%;
+.blue{
+    background: #E1F4F3;
+}
+.light{
+    background: #f5f7fa;
+    color: #1D2323;
+
 }
 .dark{
-    background: #1D2323;
+    background: black;
     color: #fff;
-    max-width: 100%;
+}
+
+.card{
+    opacity: 0.7;
+    background-color: black;
+    color: white;
+    min-height: 20rem;
+    text-align: center  ;
+
+}
+.card-header{
+    opacity:1;
+    color: #E1F4F3;
+}
+.heads{
+    margin:auto auto;
+    padding-top:5%;
+    padding-bottom: 5%;
 }
 
 /* ID Selectors */
-#profile{
-    margin-top: -20%;
+
+#footer{
+    color: #f5f7fa;
+    padding: 7%;
 }
 #profile_img{
 
-    max-width: 40%;
-    margin-left: auto;
-    margin-right: auto;
+    margin:auto auto auto auto;
+    text-align: center;
+    width: 80%;
+    padding:1%;
 }
 
 #title{
+    padding: 3%;
     text-align: center;
-    padding-top: 5%;
-    padding-bottom: 7%;
+    margin:auto auto;
     color:#2c3e50;
-    font-family: 'Patrick Hand', cursive;
+    font-family: 'Delius', cursive;
+}
 
+#projects{
+    background: url('https://images.unsplash.com/photo-1597839219216-a773cb2473e4?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1500&q=80');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+#skills{
+    padding:7%;
+    margin-left: 10%;
+    margin-right: auto;
 }
