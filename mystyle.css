@@ -6,6 +6,7 @@ body{
     font-family: 'Arima Madurai', cursive;
     color: #1D2323;
     font-size: 1.2rem;
+    overflow-x:hidden;
 }
 
 h1{
